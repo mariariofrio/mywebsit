@@ -12,3 +12,7 @@ body {
     size: 100px;
     padding-bottom: 0%;
 }
+
+#footer {
+    background-color: rgb(238, 227, 230);
+}
