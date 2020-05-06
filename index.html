@@ -6,9 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
     crossorigin="anonymous"></script>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script> -->
+ 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   </link>
   <link rel="stylesheet" href="style.css">
@@ -32,7 +30,7 @@
         <li class="nav-item active">
           <a class="nav-link" href="#portfolio">Portfolio <span class="sr-only">(current)</span></a>
         </li>
-         <li class="nav-item active">
+        <li class="nav-item active">
           <a class="nav-link" href="#contact">Contact Info <span class="sr-only">(current)</span></a>
         </li>
       </ul>
@@ -62,100 +60,118 @@
           dream website.</p>
       </div>
     </div>
+
   </section>
   <br>
-  <div class="Portfolio d-flex justify-content-center">
-    <h2 id=portfolio>My Portfolio</h2>
-  </div>
-  <section class="container">
-    <div class= "column justify-content-md-start">
-    <figure class="figure">
-      <figcaption class="figure-caption">Rain Chck Project</figcaption>
-      <a href="https://itsjonkelley.github.io/RainChk/">
-        <img alt="Qries" src="assets/RainChck.PNG" class="figure-img img-fluid rounded" style="height: 300px; width: 400px" alt="A generic square placeholder image with rounded corners in a figure."></img>
-        </a>
-    </figure>
-    </div>
-  <br>
-  <div class="row col-md-12 justify-content-md-center">
-    <figure class="figure ">
-      <figcaption class="figure-caption">Weather App</figcaption>
-      <a href="https://mariariofrio.github.io/weatherappp/">
-        <img alt="Qries" src="assets/weatherapp.PNG" class="figure-img img-fluid rounded" style="height: 300px; width: 400px" alt="A generic square placeholder image with rounded corners in a figure."></img>
-        </a>
-    </figure>
-  </div>
-  <div class="column d-flex justify-content-end">
-    <figure class="figure">
-      <figcaption class="figure-caption">Password App</figcaption>
-      <a href="https://mariariofrio.github.io/passwordap/">
-        <img alt="Qries" src="assets/PasswordAPP.PNG" class="figure-img img-fluid rounded" style="height: 300px; width: 400px" alt="A generic square placeholder image with rounded corners in a figure."></img>
-        </a>
-    </figure>
-  </div>
-  </section>
-<br>
-
-<section class="contact-section bg-black" id="footer">
-  <div class="container"">
-
-    <div class="row">
-
-      <div class="col-md-4 mb-3 mb-md-0">
-        <div class="card py-4 h-100">
-          <div class="card-body text-center">
-            <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-            <h4 class="text-uppercase m-0" id="contact">Contact</h4>
-            <hr class="my-4">
-            <div class="small text-black-50">Woodstock, Georgia</div>
-            <div class="small text-black-50">678-283-7616</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3 mb-md-0">
-        <div class="card py-4 h-100">
-          <div class="card-body text-center">
-            <i class="fas fa-envelope text-primary mb-2"></i>
-            <h4 class="text-uppercase m-0">Email</h4>
-            <hr class="my-4">
-            <div class="small text-black-50">
-              <a href="#">maria.riofrio.mr@gmail.com</a>
+  <section class="page-section portfolio" id="portfolio">
+    <div class="container">
+      <!-- Portfolio Section Heading-->
+      <h2 class="page-section-heading text-center text-uppercase text-black-50 mb-0">Portfolio</h2>
+      <br>
+      <!-- Portfolio Grid Items-->
+      <div class="row">
+        <!-- Portfolio Item 1-->
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white"></div>
             </div>
+            <a href="https://itsjonkelley.github.io/RainChk/">
+              <img alt="Qries" src="assets/RainChck.PNG" class="figure-img img-fluid rounded"
+                style="height: 300px; width: 400px"
+                alt="A generic square placeholder image with rounded corners in a figure."></img>
+            </a>
           </div>
         </div>
+        <!-- Portfolio Item 2-->
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white"></div>
+            </div>
+            <a href="file:///C:/Users/MJ/OneDrive/Documents/weatherapp/weatherapp/index.html">
+              <img alt="Qries" src="assets/weatherapp.PNG" class="figure-img img-fluid rounded"
+                style="height: 300px; width: 400px"
+                alt="A generic square placeholder image with rounded corners in a figure."></img>
+            </a>
+          </div>
+        </div>
+        <!-- Portfolio Item 3-->
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white"></div>
+            </div>
+            <a href="https://mariariofrio.github.io/passwordap/">
+              <img alt="Qries" src="assets/PasswordAPP.PNG" class="figure-img img-fluid rounded"
+                style="height: 300px; width: 400px"
+                alt="A generic square placeholder image with rounded corners in a figure."></img>
+            </a>
+          </div>
+        </div>
+  </section>
+  <br>
+
+  <section class="contact-section bg-black">
+    <div class="container"">
+
+    <div class=" row">
+
+      <div id="cards" class="col-md-4 mb-3 mb-md-0">
+        <div class="card-body text-center">
+          <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+          <h4 class="text-uppercase m-0" id="contact">Contact</h4>
+          <hr class="my-4">
+          <div class="small text-black-50">Woodstock, Georgia</div>
+          <div class="small text-black-50">678-283-7616</div>
+        </div>
+
       </div>
 
-      <div class="col-md-4 mb-3 mb-md-0">
-        <div class="card py-4 h-100">
-          <div class="card-body text-center">
-            <i class="fas fa-mobile-alt text-primary mb-2"></i>
-            <h4 class="text-uppercase m-0">Resume</h4>
-            <hr class="my-4">
-            <a class="small text-black-50" href="https://docs.google.com/document/d/1OZ-gX6Os9Rnt8roIl1OzZNyJNyZsH5A7pja3Tgi9prk/edit?usp=sharing"> Resume </a>
+      <div id="cards" class="col-md-4 mb-3 mb-md-0">
+        <div class="card-body text-center">
+          <i class="fas fa-envelope text-primary mb-2"></i>
+          <h4 class="text-uppercase m-0">Email</h4>
+          <hr class="my-4">
+          <div class="small text-black-50">
+            <a href="#">maria.riofrio.mr@gmail.com</a>
           </div>
+        </div>
+
+      </div>
+
+      <div id="cards" class="col-md-4 mb-3 mb-md-0">
+        <div class="card-body text-center">
+          <i class="fas fa-mobile-alt text-primary mb-2"></i>
+          <h4 class="text-uppercase m-0 text-black-50">Resume</h4>
+          <hr class="my-4">
+          <a class="small text-black-50"
+            href="https://docs.google.com/document/d/1OZ-gX6Os9Rnt8roIl1OzZNyJNyZsH5A7pja3Tgi9prk/edit?usp=sharing">
+            Resume </a>
         </div>
       </div>
     </div>
-<br>
-    <div class="social d-flex justify-content-center">
-  
-      <a href="https://www.linkedin.com/in/maria-jose-riofrio-b97780148/" class="mx-2"> <img src="assets/linkedinicon.jpg" style="height: 50px; width: auto; border:none">
-      </a>
-  </i>
-      <a href="https://github.com/mariariofrio" class="mx-2">
-          <img src="assets/github.png" style="height: 50px; width: auto; border:none"></a>
+  </section>
+  <br>
+  <div class="social d-flex justify-content-center" id="footer">
+
+    <a href="https://www.linkedin.com/in/maria-jose-riofrio-b97780148/" class="mx-2"> <img src="assets/linkedinicon.jpg"
+        style="height: 50px; width: auto; border:none">
+    </a>
+    </i>
+    <a href="https://github.com/mariariofrio" class="mx-2">
+      <img src="assets/github.png" style="height: 50px; width: auto; border:none"></a>
+  </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-black small text-center text-white-50">
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
     </div>
-
-  </div>
-
-<!-- Footer -->
-<footer class="bg-black small text-center text-white-50">
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
-  </div>
-</footer>
-</section>
+  </footer>
+  </section>
   <!-- Footer -->
 
 </body>
